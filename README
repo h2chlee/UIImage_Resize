@@ -1,3 +1,7 @@
 Created a git repo for Trevor Harmon's UIImage resize category.
 http://vocaro.com/trevor/blog/2009/10/12/resize-a-uiimage-the-right-way/
 
+Currently two branches. Master is the file posted on Trevor's blog, without any changes (yet).
+The other branch, Standalone removes dependencies on the other UIImage categories on Trevor's blog (e.g. the rounded corners category)
+
+If you just need to resize images, check out Standalone, if you're going to use rounded corners, checkout master.
