@@ -4,8 +4,8 @@
 // No warranty is expressed or implied.
 
 #import "UIImage+Resize.h"
-#import "UIImage+RoundedCorner.h"
-#import "UIImage+Alpha.h"
+//#import "UIImage+RoundedCorner.h"
+//#import "UIImage+Alpha.h"
 
 // Private helper methods
 @interface UIImage ()
@@ -49,7 +49,7 @@
     
     UIImage *transparentBorderImage = borderSize ? [croppedImage transparentBorderImage:borderSize] : croppedImage;
 
-    return [transparentBorderImage roundedCornerImage:cornerRadius borderSize:borderSize];
+    return transparentBorderImage;//[transparentBorderImage roundedCornerImage:cornerRadius borderSize:borderSize];
 }
 
 // Returns a rescaled copy of the image, taking into account its orientation
